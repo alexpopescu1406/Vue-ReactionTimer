@@ -13,9 +13,9 @@
     },
     mounted() {
       if (this.score < 250) {
-         this.rank = 'Eye of the Tiger'
-      } else if (this.score < 400) {
          this.rank = 'Very Fast'
+      } else if (this.score < 400) {
+         this.rank = 'Fast'
       } else {
          this.rank = 'Slow'
       }
